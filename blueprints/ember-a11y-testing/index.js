@@ -18,5 +18,7 @@ module.exports = {
       }.bind(this));
   },
 
-  normalizeEntityName: function() {}
+  normalizeEntityName: function(entityName) {
+    return Blueprint.prototype.normalizeEntityName.apply(this, arguments);
+  }
 };
