@@ -1,5 +1,5 @@
 /* globals module */
-
+var Blueprint   = require('ember-cli/lib/models/blueprint');
 var EOL = require('os').EOL;
 
 module.exports = {
